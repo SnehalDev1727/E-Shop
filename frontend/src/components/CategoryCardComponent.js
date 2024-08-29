@@ -1,16 +1,22 @@
 import { Card, Button } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+// import inmdf from "../Images/Camera.jpg"
+import cameraImage from '../Images/Camera.jpg';
+import monitorImage from '../Images/Monitors.jpg';
+import gamesImage from '../Images/Games.jpg';
+import tabletsImage from '../Images/Tablet.jpg';
 
 const CategoryCardComponent = ({ category, idx }) => {
   const images = [
-    "/images/tablets-category.png",
-    "/images/monitors-category.png",
-    "/images/games-category.png",
-    "/images/tablets-category.png",
-    "/images/tablets-category.png",
-    "/images/tablets-category.png",
-    "/images/tablets-category.png",
-    "/images/tablets-category.png",
+    cameraImage,
+    monitorImage,
+    gamesImage,
+    tabletsImage,
+    cameraImage,
+    monitorImage,
+    
+
+    
   ];
   return (
     <Card>
